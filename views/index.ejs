@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Night Life Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-lg" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div>
+        <a href="/" title="Night Life Search Home"><h1><strong>Night Life Search</strong></h1></a>
+    </div>
+    <div id="searchBar" class="row">
+        <h3>Where will you be tonight?</h3>
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-10 col-md-10 col-lg-10">
+            <input id="location" class="input-lg col-sm-11 col-md-11 col-lg-11" placeholder="Enter City, State, Country, or Zip Code">
+            <button id="button" class="btn btn-lg" title="Search location for night life" type="button">GO</button>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div id="facebook" class="text-center">
+            <h4 class="fbLogin">Facebook Log In: </h4> 
+            <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div>
+        </div>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <footer class='text-center'>
+    <a href='https://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app' title='FreeCodeCamp Challenge Instructions'>Credit</a> | <a href='https://github.com/daniellzl/night-life-application' title='GitHub Repository'>GitHub</a>
+  </footer>
+
+  <script src='/scripts/scripts.js'></script>
+
+</body>
+
+</html>
